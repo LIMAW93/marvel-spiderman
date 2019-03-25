@@ -1,0 +1,215 @@
+body {
+    background-image: url(images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 25px;
+}
+.title-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-image: url(images/estadioAtlanta.jpg);
+    height: 365px;
+    background-repeat: no-repeat;
+    /*background-position: top -75px center;*/
+    background-size: cover;
+    width: 100%;
+    border: 5px solid gold;
+}
+
+.title {
+    display: flex;
+    /*text-align: center;*/
+    font-family: 'Black Ops One', cursive;
+    font-size: 249%;
+    color: goldenrod;
+    text-shadow: -4px -2px 0px rgb(71, 20, 171);
+    
+}
+
+.enlaces{
+    display: flex;
+
+    width: 100%;
+    background-color: #a52a2af7;
+    border: 5px solid gold;
+}
+
+.boton{
+    display: flex;
+    justify-content: space-around;
+
+    width: 100%;
+    font-family: 'Black Ops One', cursive;
+    font-size: 27px;
+    border-right: 1px solid gold;
+    text-decoration: none;
+    color: gold;
+    
+}
+
+.boton:hover {
+    background-color: rgba(71, 20, 171, 0.45);
+    transition-duration: 0.5s;
+    
+}
+
+.boton div p{
+    margin: 0;
+}
+
+.content {
+    display: flex;
+    justify-content: space-around;
+    align-self: auto;
+
+    width: 100%;
+}
+
+.par {
+    font-family: 'Exo 2', sans-serif;
+    color: gold;
+    margin: 66px 0 0 66px;
+}
+
+.par2 {
+    font-family: 'Exo 2', sans-serif;
+    color: gold;
+    margin: 66px 66px 0 66px;
+    font-size: 20px;
+}
+
+.h2 {
+    text-align: center;
+}
+
+.info {
+    text-align: start;
+}
+
+.sub {
+    text-decoration: underline;
+    font-style: italic;
+}
+
+/*tablas*/
+.table {
+    width: 100%;
+    margin: 25px 0 0 0;
+
+    
+}
+
+.table td{
+    width: 25%;
+}
+
+.table2 {
+    width: 100%;
+    margin: 25px 0 0 0;
+        
+}
+
+.table2 th{
+    text-align: start;
+}
+
+.table th{
+    text-decoration: underline;
+    text-align: start;
+    
+}
+/*tablas*/
+
+
+/*list*/
+.square {
+    list-style-type: square;
+    
+}
+
+.number {
+    list-style-type: decimal;
+}
+
+.letter {
+    list-style-type: lower-alpha;
+}
+
+.dot {
+    list-style-type: circle;
+}
+
+/*list*/
+
+.p1 {
+    font-style: italic;
+    font-size: 29px;
+}
+
+.p2 {
+    margin-left: 20px;
+    font-size: 21px;
+}
+
+.p3 {
+    font-size: 18px;
+    margin: 20px;
+    font-weight: 100;
+}
+
+.mail{
+    text-decoration: none;
+    color: orangered;
+}
+
+.p4 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.p5 {
+    font-size: 20px;
+}
+
+.contact{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 66px 0 66px 0;
+    
+}
+
+.logo {
+    margin: 66px 0 66px 0;
+}
+
+.img img{
+    border: 4px solid gold;
+}
+
+.containermap{
+    display: flex;
+    justify-content: space-between;
+}
+
+.map {
+    margin: 25px 0 0 0;
+    width: 50%;
+    height: 50%;
+}
+
+
+.footer {
+    text-align: end;
+    color: gold;
+    font-size: 20px;
+}

@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>House Loyalty</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/congress-logo.png">
+
+</head>
+
+<body class="bgBody font">
+    <!-- header -->
+
+    <div class="container">
+        <div class="borderFlag">
+            <div class="americanFlag">
+
+                <div class="d-flex justify-content-between align-items-center ">
+                    <div class="ml-3 mt-2">
+                        <img src="images/house-logo.png" alt="Congress Logo" width="150" height="150">
+                    </div>
+
+                    <div class="mr-3 mt-3"><img src="https://media.giphy.com/media/3osxY4mB281Du0F5E4/200.gif"
+                            alt="message icon" width="50" height="50"> <a href="mailto:info@tgif.net">info@tgif.net</a>
+                    </div>
+                </div>
+
+                <div class="navbar navbar-expand-lg navbar-light bg-transparent">
+                    <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
+
+                        <a class="btn buttonsColor" href="home-starter-page.html" role="button">
+                            Home
+                        </a>
+
+                        <div class="btn-group" role="group">
+                            <button id="btnGroupDrop1" type="button" class="btn buttonsColor dropdown-toggle"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Congress 113
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+                                <a class="dropdown-item" href="house-starter-page.html">House</a>
+                                <a class="dropdown-item" href="senate-starter-page.html">Senate</a>
+                            </div>
+                        </div>
+
+                        <div class="btn-group" role="group">
+                            <button id="btnGroupDrop1" type="button" class="btn buttonsColor dropdown-toggle"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Attendance
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+                                <a class="dropdown-item" href="house-attendance.html">House</a>
+                                <a class="dropdown-item" href="senate-attendance.html">Senate</a>
+                            </div>
+                        </div>
+
+                        <div class="btn-group" role="group">
+                            <button id="btnGroupDrop1" type="button" class="btn buttonsColor dropdown-toggle"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Party Loyalty
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+                                <a class="dropdown-item" href="house-loyalty.html">House</a>
+                                <a class="dropdown-item" href="senate-loyalty.html">Senate</a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- tablas -->
+        <!-- containerbody -->
+        <div class="container card">
+            <!-- text&table -->
+            <div class="d-flex justify-content-between  mt-2">
+                <!-- text -->
+                <div class="col">
+                    <h4 class="card-header">Party Loyalty </h4>
+                    <p class="card-body">Those who consider themselves to be strong partisans, strong Democrats and
+                        strong Republicans respectively, tend to be the most faithful in voting for their party's
+                        nominee for office and legislation that backs their party's agenda.</p>
+                </div>
+                <!-- 1sttabel -->
+                <div class="col">
+                    <h4 class="text-right card-header">Senate at a glance</h4>
+                    <table id="tableGlance" class="table text-center bg-light table-striped"></table>
+                </div>
+
+            </div>
+
+            <div class="mb-4">
+                <hr class="brLine">
+            </div>
+
+
+            <!-- 10%tables -->
+            <div class="d-flex justify-content-between align-items-center">
+                <!-- least -->
+                <div class="col">
+                    <h4 class="card-header">Least Loyal (Bottom 10% of Party)</h4>
+                    <table id="tableLeast" class="table text-center bg-light table-striped"></table>
+                </div>
+                <!-- most -->
+                <div class="col">
+                    <h4 class="card-header">Most Loyal (Top 10% of Party)</h4>
+                    <table id="tableMost" class="table text-center bg-light table-striped"></table>
+                </div>
+
+            </div>
+
+        </div>
+
+        <footer class="card d-flex justify-content-center mt-2">
+            <div class="card-footer text-center">
+                <p class="mb-0">&copy; 2019 | All Rights Reserved</p>
+            </div>
+
+        </footer>
+
+
+    </div>
+
+    <script src="pro-congress-113-house.js"></script>
+    <script src="house-loyalty.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

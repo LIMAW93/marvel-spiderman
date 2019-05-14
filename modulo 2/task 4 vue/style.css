@@ -1,0 +1,42 @@
+.bgBody{
+    background-image: url(images/pattern2.png);
+    background-repeat: repeat;
+    background-size: auto;
+}
+
+.americanFlag{
+    background-image: url("http://2.bp.blogspot.com/-o5Bn16A4LjU/U2jv6atw6bI/AAAAAAAAF0Q/SO8qS9WZwvI/s1600/Twitter-Header-1500x500-Size-26.jpg");
+}
+
+.borderFlag{
+    border: 10px solid transparent;
+    
+    border-image: url('http://clipart-library.com/images/8gieLeTd6.png') 85 stretch;
+}
+
+.font{
+    font-family:'Roboto Slab', serif;
+}
+
+.brLine{
+    border:1px solid rgba(168, 166, 166, 0.35);
+    width:90%;
+}
+
+.buttonsColor{
+    color: white;
+    background-color:rgb(30, 36, 124);
+    border-color: rgb(230, 20, 26);
+    border-width: 1px;
+}
+
+.buttonsColor:hover{
+    color: white;
+    background-color:rgb(23, 19, 99);
+    border-color: rgb(125, 4, 5);
+    border-width: 1px;
+}
+
+#tableGlance td{
+padding: 5% 0;
+}

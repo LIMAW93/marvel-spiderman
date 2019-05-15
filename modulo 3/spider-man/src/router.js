@@ -21,9 +21,10 @@ export default new Router({
       component: () => import(/* webpackChunkName: "about" */ './components/Comics.vue')
     },
     {
-      path: '/details',
+      path: '/details/:id',
       name: 'oneComic',
       component: OneComic,
+      props: true
     },
   ],
   mode: "history"

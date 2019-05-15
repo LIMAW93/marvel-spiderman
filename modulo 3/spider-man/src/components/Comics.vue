@@ -33,7 +33,7 @@
     <v-container grid-list-sm fluid>
       <v-layout row wrap justify-space-around>
         <v-flex v-for="comic in spidermanComics" :key="comic.name" xs5 sm2 class="mx-1">
-          <v-card class="grey darken-4" dark>
+          <v-card class="grey darken-4" dark :to="'/details/' + comic.id">
             <v-img :src="comic.thumbnail.path + '/portrait_uncanny.jpg'" height="100%" contain></v-img>
             <p>{{comic.title}}</p>
           </v-card>
@@ -52,7 +52,7 @@
 export default {
   data: () => ({
     items: [
-      { title: "Comics", path: "./comics" },
+      { title: "Comics", path: "/comics" },
       { title: "Movies & Series", path: "" },
       { title: "Videogames", path: "" }
     ]

@@ -33,7 +33,7 @@
     </v-toolbar>
     <!-- main image -->
     <img
-      src="http://maxfarrow.files.wordpress.com/2013/01/amazing-spider-man-hd-wallpaper.jpg"
+      src="https://maxfarrow.files.wordpress.com/2013/01/amazing-spider-man-hd-wallpaper.jpg"
       width="100%"
       alt="webbing spiderman"
     >
@@ -81,7 +81,7 @@
 export default {
   data: () => ({
     items: [
-      { title: "Comics", path: "./comics" },
+      { title: "Comics", path: "/comics" },
       { title: "Movies & Series", path: "" },
       { title: "Videogames", path: "" }
     ]
